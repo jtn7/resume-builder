@@ -4,12 +4,6 @@ html {
   color: #3B3F4A;
 }
 
-body {
-  width: 8.3in;
-  height: 11.7in;
-  /* change the margins as you want them to be. */
-}
-
 .bold {
   font-weight: bold;
 }
@@ -56,8 +50,8 @@ div.bubble-container .unfilled {
 div.content-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 5.81in 2.49in;
-      grid-template-columns: 5.81in 2.49in;
+  -ms-grid-columns: 70vw 30vw;
+      grid-template-columns: 70vw 30vw;
   font-size: 2rem;
 }
 

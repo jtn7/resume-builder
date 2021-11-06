@@ -7,11 +7,11 @@ html {
 	color: $main-color;
 }
 
-body{
-	width: 8.3in;
-	height: 11.7in;
-	/* change the margins as you want them to be. */
-} 
+// body{
+// 	width: 8.3in;
+// 	height: 11.7in;
+// 	/* change the margins as you want them to be. */
+// } 
 
 .bold {
 	font-weight: bold;
@@ -55,7 +55,7 @@ div.bubble-container {
 
 div.content-container {
 	display: grid;
-	grid-template-columns: 5.81in 2.49in;
+	grid-template-columns: 70vw 30vw;
 	font-size: 2rem; // Default font size
 
 	.separator {
