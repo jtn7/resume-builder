@@ -1,7 +1,13 @@
 html {
-  font-size: 16px;
+  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #3B3F4A;
+}
+
+body {
+  width: 8.3in;
+  height: 11.7in;
+  /* change the margins as you want them to be. */
 }
 
 .bold {
@@ -50,8 +56,8 @@ div.bubble-container .unfilled {
 div.content-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 70vw 30vw;
-      grid-template-columns: 70vw 30vw;
+  -ms-grid-columns: 5.81in 2.49in;
+      grid-template-columns: 5.81in 2.49in;
   font-size: 2rem;
 }
 
@@ -90,6 +96,8 @@ div.content-container div.left-content .work-history {
       -ms-flex-pack: justify;
           justify-content: space-between;
   line-height: 1.5;
+  margin-bottom: 1rem;
+  row-gap: 2rem;
 }
 
 div.content-container div.left-content .work-history .job .company {

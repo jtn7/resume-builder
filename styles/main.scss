@@ -2,10 +2,16 @@ $main-color: #3B3F4A;
 $separator-color: #D4D5D5;
 
 html {
-	font-size: 16px;
+	font-size: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: $main-color;
 }
+
+body{
+	width: 8.3in;
+	height: 11.7in;
+	/* change the margins as you want them to be. */
+} 
 
 .bold {
 	font-weight: bold;
@@ -49,7 +55,7 @@ div.bubble-container {
 
 div.content-container {
 	display: grid;
-	grid-template-columns: 70vw 30vw;
+	grid-template-columns: 5.81in 2.49in;
 	font-size: 2rem; // Default font size
 
 	.separator {
@@ -82,6 +88,8 @@ div.content-container {
 			grid-template-columns: 1fr 80%;
 			justify-content: space-between;
 			line-height: 1.5;
+			margin-bottom: 1rem;
+			row-gap: 2rem;
 
 			.job {
 				.company {
