@@ -1,0 +1,144 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3B3F4A;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.name-bar {
+  background-color: #3B3F4A;
+  color: white;
+}
+
+.name-bar .name-role-container {
+  padding: 2rem;
+}
+
+.name-bar .name-role-container .name {
+  font-size: 7rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.name-bar .name-role-container .role {
+  font-size: 3rem;
+}
+
+div.bubble-container {
+  text-align: right;
+}
+
+div.bubble-container .bubble {
+  border-radius: 50%;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+div.bubble-container .filled {
+  background-color: #3B3F4A;
+}
+
+div.bubble-container .unfilled {
+  background-color: #D4D5D5;
+}
+
+div.content-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70vw 30vw;
+      grid-template-columns: 70vw 30vw;
+  font-size: 2rem;
+}
+
+div.content-container .separator {
+  background-color: #D4D5D5;
+  height: 0.3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+}
+
+div.content-container div.left-content {
+  padding: 2rem;
+}
+
+div.content-container div.left-content .intro {
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+div.content-container div.left-content .title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+div.content-container div.left-content .date-range {
+  font-size: 1.8rem;
+}
+
+div.content-container div.left-content .work-history {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 80%;
+      grid-template-columns: 1fr 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.5;
+}
+
+div.content-container div.left-content .work-history .job .company {
+  font-style: italic;
+}
+
+div.content-container div.left-content .work-history .job ul.bullets {
+  margin-left: 2rem;
+}
+
+div.content-container div.left-content .education {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 80%;
+      grid-template-columns: 1fr 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.5;
+}
+
+div.content-container div.left-content .education .content .school {
+  font-style: italic;
+}
+
+div.content-container div.right-content {
+  background-color: #F4F4F4;
+  padding: 2rem;
+}
+
+div.content-container div.right-content .title-container {
+  margin-bottom: 1.5rem;
+}
+
+div.content-container div.right-content .title-container .title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+div.content-container div.right-content .section-content {
+  margin-bottom: 2rem;
+}
+
+div.content-container div.right-content .section-content .info-block .title {
+  margin-bottom: 0.4rem;
+}
+
+div.content-container div.right-content .section-content .skill .title {
+  margin-bottom: 1.3rem;
+}
+/*# sourceMappingURL=main.css.map */
