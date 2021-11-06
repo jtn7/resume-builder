@@ -1,0 +1,122 @@
+$main-color: #3B3F4A;
+$separator-color: #D4D5D5;
+
+html {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: $main-color;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.name-bar {
+	background-color: $main-color;
+	color: white;
+
+	.name-role-container {
+		padding: 2rem;
+
+		.name {
+			font-size: 7rem;
+			font-weight: bold;
+			margin-bottom: 0.6rem;
+		}
+		.role {
+			font-size: 3rem;
+		}
+	}
+}
+
+.content-container {
+	display: grid;
+	grid-template-columns: 70vw 30vw;
+	font-size: 2rem; // Default font size
+
+	.separator {
+		background-color: $separator-color;
+		height: 0.3rem;
+		width: 100%;
+		margin-bottom: 1rem;
+		border-radius: 3px;
+	}
+
+	.left-content {
+		padding: 2rem;
+
+		.intro {
+			line-height: 1.4;
+			margin-bottom: 2rem;
+		}
+
+		.title {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+		}
+
+		.work-history {
+			display: grid;
+			grid-template-columns: 1fr 80%;
+			justify-content: space-between;
+			line-height: 1.5;
+
+			.date-range {
+				font-size: 1.8rem;
+			}
+			.job {
+				.company {
+					font-style: italic;
+				}
+
+				ul.bullets {
+					margin-left: 2rem;
+				}
+			}
+		}
+	}
+
+	.right-content {
+		background-color: #F4F4F4;
+		padding: 2rem;
+
+		.title-container {
+			margin-bottom: 1rem;
+
+			.title {
+				font-size: 3rem;
+				font-weight: bold;
+				margin-bottom: 0.3rem;
+			}
+		}
+
+		.info-container {
+			margin-bottom: 1rem;
+
+		}
+
+		.skill-container {
+			.title {
+				margin-bottom: 1.3rem;
+			}
+
+			.bubble-container {
+				text-align: right;
+
+				.bubble {
+					border-radius: 50%;
+					width: 2.3rem;
+					height: 2.3rem;
+					display: inline-block;
+					margin-bottom: 1rem;
+				}
+				.filled {
+					background-color: $main-color;
+				}
+				.unfilled {
+					background-color: $separator-color;
+				}
+			}
+		}
+	}
+}
